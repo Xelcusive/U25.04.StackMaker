@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerControler : MonoBehaviour
+public class MovementInput : MonoBehaviour
 {
-    public static PlayerControler Instance { set;get; }
+    public static MovementInput Instance { set;get; }
     public bool tap, swipeLeft, swipeRight, swipeUp, swipeDown;
     public Vector2 swipeDelta, startTouch;
     private const float deadZone = 100;
