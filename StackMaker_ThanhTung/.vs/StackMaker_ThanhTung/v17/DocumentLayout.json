@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMaker\\StackMaker_ThanhTung\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMaker\\StackMaker_ThanhTung\\assets\\script\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMaker\\StackMaker_ThanhTung\\assets\\script\\movementinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\movementinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|c:\\users\\night\\onedrive\\desktop\\git-fork\\u25.04.stackmaker\\stackmaker_thanhtung\\assets\\script\\movementinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\movementinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|c:\\users\\night\\onedrive\\desktop\\git-fork\\u25.04.stackmaker\\stackmaker_thanhtung\\assets\\script\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|c:\\users\\night\\onedrive\\desktop\\git-fork\\u25.04.stackmaker\\stackmaker_thanhtung\\assets\\script\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92BD31BA-B772-52EF-AF43-F76EB5A5191B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,25 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Stack.cs",
+              "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMaker\\StackMaker_ThanhTung\\Assets\\Script\\Stack.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Stack.cs",
+              "ToolTip": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMaker\\StackMaker_ThanhTung\\Assets\\Script\\Stack.cs",
+              "RelativeToolTip": "Assets\\Script\\Stack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T00:21:05.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MovementInput.cs",
               "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMaker\\StackMaker_ThanhTung\\Assets\\Script\\MovementInput.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\MovementInput.cs",
               "ToolTip": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMaker\\StackMaker_ThanhTung\\Assets\\Script\\MovementInput.cs",
               "RelativeToolTip": "Assets\\Script\\MovementInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-06T13:41:33.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMaker\\StackMaker_ThanhTung\\Assets\\Script\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerMovement.cs",
               "ToolTip": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\U25.04.StackMaker\\StackMaker_ThanhTung\\Assets\\Script\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Script\\PlayerMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-06T13:41:12.718Z",
               "EditorCaption": ""

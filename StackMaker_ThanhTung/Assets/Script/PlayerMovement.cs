@@ -4,11 +4,22 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public static PlayerMovement Instance;
     private Rigidbody2D rb;
 
+    public GameObject DashParent;
+    public GameObject PrevDash;
     public float speed;
 
     private bool isMoving=false;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -34,5 +45,11 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = -Vector3.forward * speed * Time.deltaTime;
         }
+    }
+    public void PickDash(GameObject dashOb )
+    {
+        dashOb.transform.SetParent(DashParent.transform);
+        Vector3.pos = PrevDash.transform.localPosition;
+        Pose.y=
     }
 }
