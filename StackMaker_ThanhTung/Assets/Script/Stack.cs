@@ -9,6 +9,12 @@ public class Stack : MonoBehaviour
         if (other.CompareTag("Dashpickup"))
         {
             other.gameObject.CompareTag("normal");
+            PlayerMovement.Instance.PickDash(other.gameObject);
+            other.gameObject.AddComponent<Rigidbody>();
+            other.gameObject.GetComponent<Rigidbody>().useGravity= false;
+            other.gameObject.GetComponent<Rigidbody>().isKinematic=true;
+            other.gameObject.AddComponent<Stack>();
+            Destroy(this);
         }
     }
 }

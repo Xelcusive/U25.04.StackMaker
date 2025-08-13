@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public static PlayerMovement Instance;
-    private Rigidbody2D rb;
+    private Rigidbody rb;
 
     public GameObject DashParent;
     public GameObject PrevDash;
@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb= GetComponent<Rigidbody2D>();
+        rb= GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -49,7 +49,13 @@ public class PlayerMovement : MonoBehaviour
     public void PickDash(GameObject dashOb )
     {
         dashOb.transform.SetParent(DashParent.transform);
-        Vector3.pos = PrevDash.transform.localPosition;
-        Pose.y=
+        Vector3 pos = PrevDash.transform.localPosition;
+        pos.y-=1.19f;
+        dashOb.transform.localPosition = pos;
+        Vector3 charactorPos = transform.localPosition;
+        charactorPos.y += 1.19f;
+        transform.localPosition = charactorPos;
+        PrevDash=dashOb;
+        PrevDash.GetComponent<BoxCollider>().isTrigger = false;
     }
 }
